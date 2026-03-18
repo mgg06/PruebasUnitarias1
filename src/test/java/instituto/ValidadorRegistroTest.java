@@ -25,7 +25,7 @@ public class ValidadorRegistroTest {
     public void rechazarNombreVacío(){
         String nombre = "";
         Boolean nombreValido = nombre.length() > 0;
-        assertFalse(nombreValido, "El sistema debería de rechazar el nombre");
+        assertFalse(nombreValido, "Error: El sistema rechazó un nombre vacío");
     }
 
     @Test
@@ -33,7 +33,7 @@ public class ValidadorRegistroTest {
     public void aceptarPasswordJusta(){
         String password = "12345678";
         Boolean passwordValida = password.length() >= 8;
-        assertTrue(passwordValida, "El sistema debería de aceptar la contraseña");
+        assertTrue(passwordValida, "Error: El sistema rechazó una contraseña menor de 8");
     }
 
     @Test
@@ -41,7 +41,7 @@ public class ValidadorRegistroTest {
     public void rechazarContraseñaCorta(){
         String password = "Admin";
         Boolean passwordValida = password.length() >= 8;
-        assertFalse(passwordValida, "El sistema debería de rechazar la contraseña");
+        assertFalse(passwordValida, "Error: El sistema rechazó una contreaseña corta");
     }
 
     @Test
@@ -49,7 +49,7 @@ public class ValidadorRegistroTest {
     public void rechazarEmailFalso(){
         String email = "usuario.gmail.com";
         Boolean emailValido = email.contains("@");
-        assertFalse(emailValido, "El sistema debería de rechazar el email falso");
+        assertFalse(emailValido, "Error: El sistema debería rechazar el email inválido");
     }
 
     @Test
@@ -57,7 +57,7 @@ public class ValidadorRegistroTest {
     public void aceptarEdadMínima(){
         int edad = 16;
         Boolean edadValida = edad >= 16;
-        assertTrue(edadValida, "El sistema debería aceptar la edad válida minima");
+        assertTrue(edadValida, "Error: El sistema debería acpetar el email válido");
     }
 
 
