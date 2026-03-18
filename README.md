@@ -15,7 +15,8 @@
 
 ## 📸 <font color="#FF69B4">Captura de los Tests Validados</font>
 
-<img width="1556" height="1566" alt="image" src="https://github.com/user-attachments/assets/edb9c93b-899c-41cd-9ef1-899655789749" />
+<img width="1496" height="1290" alt="captura-test-validados" src="https://github.com/user-attachments/assets/4018e043-15fd-4025-ab80-54fb99aa26d3" />
+
 
 ---
 
