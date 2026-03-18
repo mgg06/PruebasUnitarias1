@@ -53,7 +53,7 @@ public class ValidadorRegistroTest {
     }
 
     @Test
-    @DisplayName("Reto 5: Aceptar edad mínima")
+    @DisplayName("Reto 5: Aceptar edad mínima exactamente")
     public void aceptarEdadMínima(){
         int edad = 16;
         assertEquals(edad, 16, "Error: La edad tiene que ser exactamente 16");
