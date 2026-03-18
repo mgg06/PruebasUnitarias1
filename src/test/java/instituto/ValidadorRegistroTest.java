@@ -56,8 +56,7 @@ public class ValidadorRegistroTest {
     @DisplayName("Reto 5: Aceptar edad mínima")
     public void aceptarEdadMínima(){
         int edad = 16;
-        Boolean edadValida = edad >= 16;
-        assertTrue(edadValida, "Error: El sistema debería acpetar el email válido");
+        assertEquals(edad, 16, "Error: La edad tiene que ser exactamente 16");
     }
 
 
