@@ -1,5 +1,9 @@
 EJERCICIO REALIZADO POR MARTA GONZÁLEZ GONZÁLEZ PARA LA ACTIVIDAD TAREA EVALUACIÓN MÓDULO 14 (ENTORNOS DE DESARROLLO)
 
+CAPTURA DE TODOS LOS TEST VALIDADOS:
+
+<img width="1556" height="1566" alt="image" src="https://github.com/user-attachments/assets/e91ce5fb-07da-49d8-9440-7e86f8e5b94d" />
+
 Pruebas unitarias sobre ValidadorRegistro
 
 En este proyecto se han desarrollado una serie de pruebas unitarias sobre la clase ValidadorRegistro, que se encuentra en el código principal. Esta clase implementa distintos métodos de validación relacionados con el registro de usuarios, como la comprobación de nombre, contraseña, email y edad.
@@ -46,3 +50,4 @@ Java
 JUnit 5
 
 Maven
+
